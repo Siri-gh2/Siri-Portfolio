@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korupolu Siri - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-5 bg-gray-800 fixed w-full top-0 z-50">
+        <h1 class="text-xl font-bold">Siri's Profile</h1>
+        <ul class="flex space-x-6">
+            <li><a href="#home" class="hover:text-blue-400">Home</a></li>
+            <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+            <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+            <li><a href="#about" class="hover:text-blue-400">About</a></li>
+            <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="h-screen flex flex-col md:flex-row items-center justify-center text-center md:text-left px-10">
+        <div class="md:w-1/2">
+            <h2 class="text-gray-400 text-lg">Hi, I'm KORUPOLU SIRI</h2>
+            <h1 class="text-5xl font-extrabold mt-2">Full-Stack Web Developer</h1>
+            <p class="mt-4 text-gray-400">I build sleek, modern, and scalable web applications with clean UI and powerful backend.</p>
+            <a href="#projects" class="mt-6 inline-block px-6 py-3 border border-white rounded-lg hover:bg-white hover:text-black">
+                View My Projects
+            </a>
+        </div>
+        <div class="profile-container">
+            <img src="siri.jpeg" alt="Siri's Profile Picture" class="profile-image">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-10 text-center">
+        <h2 class="text-4xl font-bold">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+            
+            <div class="bg-gray-800 p-5 rounded-lg hover:shadow-lg transition">
+                <h3 class="text-xl font-bold">🔥 Focus Flare</h3>
+                <p class="text-gray-400">A productivity tool designed to help users stay focused, track tasks, and boost efficiency with elegant UI.</p>
+                <a href="https://siri-gh2.github.io/FOCUSFLARE/" target="_blank" class="text-blue-400 hover:underline">View Project</a>
+            </div>
+
+            <div class="bg-gray-800 p-5 rounded-lg hover:shadow-lg transition">
+                <h3 class="text-xl font-bold">🍲 Recipe Card</h3>
+                <p class="text-gray-400">A beautiful recipe card app that lets users explore dishes with ingredients, steps, and clean card UI.</p>
+                <a href="https://jolly-cajeta-acb108.netlify.app/" target="_blank" class="text-blue-400 hover:underline">View Project</a>
+            </div>
+
+            <div class="bg-gray-800 p-5 rounded-lg hover:shadow-lg transition">
+                <h3 class="text-xl font-bold">🌐 Landing Page</h3>
+                <p class="text-gray-400">A modern and responsive landing page built for my future project EchoLife with Tailwind CSS, showcasing elegant design and smooth layouts.</p>
+                <a href="https://landingpageforecholife.netlify.app/" target="_blank" class="text-blue-400 hover:underline">View Project</a>
+            </div>
+
+            <div class="bg-gray-800 p-5 rounded-lg hover:shadow-lg transition">
+                <h3 class="text-xl font-bold">📊 Personal Finance Tracker</h3>
+                <p class="text-gray-400">Track expenses, generate budgets, and explore investment options. Built with React, styled-components, and backend integration.</p>
+                <a href="https://github.com/Siri-gh2/FINANCIAL-TRACKER-AND-BUDGET-PLANNER" target="_blank" class="text-blue-400 hover:underline">View on GitHub</a>
+            </div>
+
+            <div class="bg-gray-800 p-5 rounded-lg hover:shadow-lg transition">
+                <h3 class="text-xl font-bold">🎓 eLearning Platform</h3>
+                <p class="text-gray-400">An online learning platform with video embedding, progress tracking, and responsive design for students.</p>
+                <a href="https://github.com/Siri-gh2/E-LEARNING-PLATFORM" target="_blank" class="text-blue-400 hover:underline">View on GitHub</a>
+            </div>
+
+            <div class="bg-gray-800 p-5 rounded-lg hover:shadow-lg transition">
+                <h3 class="text-xl font-bold">💬 Real-Time Chat App</h3>
+                <p class="text-gray-400">A chat application with real-time messaging using Socket.io, Express backend, and modern React UI.</p>
+                <a href="https://github.com/Siri-gh2/REAL-TIME-CHAT-APPLICATION?tab=readme-ov-file" target="_blank" class="text-blue-400 hover:underline">View on GitHub</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- Skills Section -->
+<section id="skills" class="py-16 px-8 text-center bg-gray-900 text-white">
+  <h2 class="text-3xl font-bold">Skills</h2>
+  <p class="mt-2 text-gray-400 text-sm">Here are the tools and technologies I work with:</p>
+
+  <!-- Core Skills -->
+  <h3 class="text-xl font-semibold mt-10 mb-4 text-green-400">Core Skills</h3>
+  <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+    
+    <!-- Skill Item -->
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML" width="45">
+      <p class="mt-1">HTML</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS" width="45">
+      <p class="mt-1">CSS</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" width="45">
+      <p class="mt-1">JavaScript</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="React" width="45">
+      <p class="mt-1">React (Vite)</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Tailwind" width="45">
+      <p class="mt-1">Tailwind CSS</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://styled-components.com/logo.png" alt="Styled Components" width="45">
+      <p class="mt-1">Styled Components</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" alt="Bootstrap" width="45">
+      <p class="mt-1">Bootstrap</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node.js" width="45">
+      <p class="mt-1">Node.js</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" alt="MySQL" width="45">
+      <p class="mt-1">MySQL</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://avatars.githubusercontent.com/u/39346816?s=200&v=4" alt="Recharts" width="45">
+      <p class="mt-1">Recharts</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" width="45">
+      <p class="mt-1">GitHub</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png" alt="Netlify" width="45">
+      <p class="mt-1">Netlify</p>
+    </div>
+
+  </div>
+
+  <!-- Exploring Now -->
+  <h3 class="text-xl font-semibold mt-12 mb-4 text-yellow-400">Exploring Now</h3>
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="API" width="45">
+      <p class="mt-1">APIs</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn.worldvectorlogo.com/logos/framer-motion.svg" alt="Framer Motion" width="45">
+      <p class="mt-1">Framer Motion</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn-icons-png.flaticon.com/512/1532/1532688.png" alt="WebSockets" width="45">
+      <p class="mt-1">WebSockets</p>
+    </div>
+
+    <div class="flex flex-col items-center text-sm hover:scale-105 transition">
+      <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="Express" width="45">
+      <p class="mt-1">Express.js</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-10 text-center">
+        <h2 class="text-4xl font-bold">About Me</h2>
+        <p class="mt-4 text-gray-400 max-w-2xl mx-auto">
+            I'm pursuing my prefinal year in Bachelor of Technology degree in Computer Science and Engineering, working hard to land a top software job. 
+            I’m a passionate and detail-oriented <strong>Full-Stack Web Developer</strong> with experience in building modern, responsive, and scalable applications. 
+            Skilled in HTML, CSS, JavaScript, React, and backend technologies like Node.js and databases like MySQL, I enjoy turning ideas into powerful, user-friendly solutions. 
+            I love creating elegant UI/UX while ensuring performance, accessibility, and scalability. 
+            With a mindset for continuous learning, I aim to contribute to impactful projects that combine creativity and technology.
+        </p>
+    </section>
+
+
+   <!-- Contact Section -->
+<section id="contact" class="py-20 px-10 text-center">
+    <h2 class="text-4xl font-bold">Contact</h2>
+    <p class="mt-4 text-gray-400">Feel free to reach out for opportunities, collaborations, or just a friendly chat!</p>
+
+    <div class="flex flex-wrap justify-center items-center space-x-8 mt-8">
+        
+        <!-- Email -->
+        <div class="flex items-center space-x-2">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="28">
+            <a href="smilewithu1436@gmail.com" class="text-blue-400 hover:underline">smilewithu1436@gmail.com</a>
+        </div>
+
+        <!-- Phone -->
+        <div class="flex items-center space-x-2">
+            <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone" width="28">
+            <a href="tel:+917569042767" class="text-blue-400 hover:underline">+91 7569042767</a>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="flex items-center space-x-2">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="28">
+            <a href="https://www.linkedin.com/in/korupolu-siri-247653296" target="_blank" class="text-blue-400 hover:underline">LinkedIn</a>
+        </div>
+
+        <!-- GitHub -->
+        <div class="flex items-center space-x-2">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" width="28">
+            <a href="https://github.com/Siri-gh2" target="_blank" class="text-blue-400 hover:underline">GitHub</a>
+        </div>
+    </div>
+</section>
+
+    <footer class="bg-gray-800 text-center p-5">
+        <p class="text-gray-400">&copy;  Korupolu Siri. All rights reserved.</p>
+    </footer>
+</body>
+</html>
